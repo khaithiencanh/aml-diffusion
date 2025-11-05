@@ -6,13 +6,11 @@ This repository contains the full codebase developed at Helmholtz Munich for the
 
 ## 📄 Abstract
 
-Biomedical datasets often contain a large sample imbalance and are subject to strict privacy constraints, which together hinder the development of accurate machine learning models. One potential solution is to generate synthetic images, as this can improve data availability while preserving patient privacy. However, it remains difficult to generate synthetic images of sufficient quality for training robust classifiers.
+Biomedical datasets are often constrained by stringent privacy requirements and frequently suffer from severe class imbalance. These two aspects hinder the development of accurate machine learning models. While generative AI offers a promising solution, producing synthetic images of sufficient quality for training robust classifiers remains challenging. 
 
-We demonstrate how synthetic images generated with a fine-tuned stable diffusion model using LoRA weights when guided by real few-shot samples of the target white blood cell classes, can enhance classifier performance for limited data.
+This work addresses the classification of individual white blood cells, a critical task in diagnosing hematological malignancies such as acute myeloid leukemia (AML). We introduce CytoDiff, a stable diffusion model fine-tuned with LoRA weights and guided by few-shot samples that generates high-fidelity synthetic white blood cell images. 
 
-When training a ResNet classifier, accuracy increased from 27.3% to 78.4% (+51.1%) by adding 5000 synthetic images per class to a small and highly imbalanced real dataset. For a CLIP-based classifier, the accuracy improved from 61.8% to 76.8% (+15.0%).
-
-The synthetic images are highly similar to real images, and they can help overcome dataset limitations, enhancing model generalization. Our results establish synthetic images as a tool in biomedical research, improving machine learning models, and facilitating medical diagnosis and research.
+Our approach demonstrates substantial improvements in classifier performance when training data is limited. Using a small, highly imbalanced real dataset, the addition of 5,000 synthetic images per class improved ResNet classifier accuracy from 27% to 78% (+51%). Similarly, CLIP-based classification accuracy increased from 62% to 77% (+15%). These results establish synthetic image generation as a valuable tool for biomedical machine learning, enhancing data coverage and facilitating secure data sharing while preserving patient privacy.
 
 
 
