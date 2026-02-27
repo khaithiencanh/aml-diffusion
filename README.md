@@ -89,12 +89,13 @@ CytoDiff/
 If you use this code or data, please cite our paper:
 
 ```bibtex
-@inproceedings{boada2025cytodiff,
+@inproceedings{carrerasboada2025cytodiff,
   title={CytoDiff: AI-Driven Cytomorphology Image Synthesis for Medical Diagnostics},
-  author={Boada, Jan Carreras and Umer, Rao Muhammad and Marr, Carsten},
-  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
-  pages={1125--1133},
-  year={2025}
+  author={Carreras Boada, Jan and Umer, Rao Muhammad and Marr, Carsten},
+  booktitle={2025 IEEE/CVF International Conference on Computer Vision Workshops (ICCVW)},
+  year={2025},
+  pages={1136--1144},
+  doi={10.1109/ICCVW69036.2025.00122}
 }
 ```
 
