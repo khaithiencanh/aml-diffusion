@@ -11,7 +11,7 @@ scikit-learn
 ranger-fm
 gspread
 oauth2client
-tensorboard
+tensorboarda
 wandb
 openai
 google-cloud-aiplatform
@@ -26,4 +26,3 @@ torchvision
 clip
 timm
 loralib
-torch=2.3.1+cu118

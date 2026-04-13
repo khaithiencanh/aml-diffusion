@@ -266,8 +266,7 @@ def main(args):
         )
     elif args.pretrained_model_name_or_path:
         tokenizer = AutoTokenizer.from_pretrained(
-            #args.pretrained_model_name_or_path,
-            'stabilityai/stable-diffusion-2-base', ## added
+            args.pretrained_model_name_or_path,
             subfolder="tokenizer",
             revision=args.revision,
             use_fast=False,
