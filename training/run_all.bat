@@ -1,5 +1,5 @@
 @echo off
-set MODEL_PATH="C:\Users\Administrator\.cache\modelscope\hub\models\AI-ModelScope\stable-diffusion-v2-1"
+set MODEL_PATH="C:\Users\ezycloudx-admin\.cache\modelscope\hub\models\AI-ModelScope\stable-diffusion-v2-1"
 
 echo Bat dau chay tiep cac class con lai...
 
