@@ -1,7 +1,7 @@
 import os
 
 # Đường dẫn tới thư mục chứa dữ liệu của bạn
-data_dir = r"C:\Users\ezycloudx-admin\AML_LMU"
+data_dir = r"C:\Users\Administrator\data\AML-LMU"
 
 # Danh sách ánh xạ từ thư mục viết tắt sang tên gốc của tác giả
 rename_map = {

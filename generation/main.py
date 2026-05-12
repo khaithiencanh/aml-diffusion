@@ -386,7 +386,7 @@ def main(
     #start_idx = split_idx * step
     #end_idx = (split_idx + 1) * step if (split_idx + 1) != n_set_split else len(iters)
     
-    start_idx = 4 # per la primera carpeta
+    start_idx = 2 # per la primera carpeta
     end_idx = len(iters)
     
     print(
